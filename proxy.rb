@@ -13,7 +13,7 @@ post '/:server/:username/:apikey/:project' do
     user = params[:username]
     project = params[:project]
     
-    c = Curl::Easy.new("http://#{server}.codebasehq.com/#{project}/tickets.xml') 
+    c = Curl::Easy.new("http://#{server}.codebasehq.com/#{project}/tickets.xml") 
     c.username = username
     c.password = password
     c.http_get
@@ -25,5 +25,5 @@ post '/:server/:username/:apikey/:project' do
 	xslt.xsl = "cb2pt.xslt"
 
 	out = xslt.serve()
-    puts out
+    puts outcb-pt.xslt
 end
