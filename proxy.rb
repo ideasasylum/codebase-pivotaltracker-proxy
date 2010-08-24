@@ -7,7 +7,7 @@ get '/' do
     haml :index
 end
 
-post '/:server/:username/:apikey/:project' do
+post '/tickets/:server/:username/:apikey/:project' do
     # Get user's posterous details
     apikey = params[:apikey]
     user = params[:username]
