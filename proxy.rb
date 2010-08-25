@@ -46,6 +46,8 @@ get '/tickets/:server/:username/:apikey/:project' do
         <name><xsl:value-of select="summary"/></name>
         <requested_by><xsl:value-of select="reporter"/></requested_by>
         <story_type><xsl:value-of select="ticket-type"/></story_type>
+        <created_at type="datetime">2010/8/1 00:00:00 UTC</created_at>
+        <estimate type="integer">2</estimate>
       </external_story>
       </xsl:for-each>
   </external_stories>
