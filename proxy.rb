@@ -31,8 +31,8 @@ get '/tickets/:server/:username/:apikey/:project' do
 #      logger.info tickets
     end
     
-	#xslt = XML::XSLT.new()
-	#xslt.xml = tickets
+	xslt = XML::XSLT.new()
+	xslt.xml = tickets
 	xsl = <<XML
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
@@ -53,9 +53,9 @@ get '/tickets/:server/:username/:apikey/:project' do
 </xsl:stylesheet>
 XML
 
-	#out = xslt.serve()
-    #puts out
-    tickets
+	out = xslt.serve()
+    out
+    #tickets
 end
 
 enable :inline_templates
