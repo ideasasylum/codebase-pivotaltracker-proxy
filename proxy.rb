@@ -33,7 +33,7 @@ get '/tickets/:server/:username/:apikey/:project' do
     
 	xslt = XML::XSLT.new()
 	xslt.xml = tickets
-	xsl = <<XML
+	xslt.xsl = <<XML
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
