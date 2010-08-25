@@ -6,27 +6,6 @@ require 'haml'
 require 'logger'
 
 
-configure :development do
-
-  LOGGER = Logger.new("sinatra.log")
-  enable :logging, :dump_errors
-  set :raise_errors, true
-
-end
-
-error do
-  e = request.env['sinatra.error']
-  puts e.to_s
-  puts e.backtrace.join("\n")
-  "Application Error!"
-end
-
-helpers do
-  def logger
-    LOGGER
-  end
-end
-
 set :run, true
 set :logging, true
 
