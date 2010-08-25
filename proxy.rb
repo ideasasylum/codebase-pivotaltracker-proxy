@@ -28,7 +28,7 @@ get '/tickets/:server/:username/:apikey/:project' do
       req.basic_auth(username, apikey)
       response = http.request(req)
       tickets = response.body
-      logger.info tickets
+#      logger.info tickets
     end
     
 	#xslt = XML::XSLT.new()
