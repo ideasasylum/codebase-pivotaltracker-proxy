@@ -1,0 +1,6 @@
+A simple Sintra app which acts as a proxy between Pivotal Tracker and Codebase, enabling you to see your codebase tickets in pivotal tracker.
+
+Simply add a new integration to PT, with the url 
+
+http://XXXXXXX.heroku.com/tickets/<your codebase subdomain>/<username>/<codebase api key>/<project>
+
