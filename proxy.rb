@@ -1,10 +1,34 @@
 require 'rubygems'
 require 'sinatra'
-require 'curb'
+require 'net/https'
 require 'xml/xslt'
 require 'haml'
+require 'logger'
+
+
+configure :development do
+
+  LOGGER = Logger.new("sinatra.log")
+  enable :logging, :dump_errors
+  set :raise_errors, true
+
+end
+
+error do
+  e = request.env['sinatra.error']
+  puts e.to_s
+  puts e.backtrace.join("\n")
+  "Application Error!"
+end
+
+helpers do
+  def logger
+    LOGGER
+  end
+end
 
 set :run, true
+set :logging, true
 
 get '/' do
     haml :index
@@ -17,16 +41,20 @@ get '/tickets/:server/:username/:apikey/:project' do
     project = params[:project]
     server = params[:server]
     
-    c = Curl::Easy.new("http://#{server}.codebasehq.com/#{project}/tickets.xml") 
-    c.username = username
-    c.password = apikey
-    c.http_get
-    tickets = c.body_str
-    puts tickets
+    tickets = ""
+    http = Net::HTTP.new("#{server}.codebasehq.com", 443)
+    http.use_ssl = true
+    http.start do |http|
+      req = Net::HTTP::Get.new("/#{project}/tickets.xml")
+      req.basic_auth(username, apikey)
+      response = http.request(req)
+      tickets = response.body
+      logger.info tickets
+    end
     
-	xslt = XML::XSLT.new()
-	xslt.xml = tickets
-	xslt.xsl = <<XML
+	#xslt = XML::XSLT.new()
+	#xslt.xml = tickets
+	xsl = <<XML
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
@@ -46,8 +74,9 @@ get '/tickets/:server/:username/:apikey/:project' do
 </xsl:stylesheet>
 XML
 
-	out = xslt.serve()
-    puts out
+	#out = xslt.serve()
+    #puts out
+    tickets
 end
 
 enable :inline_templates
@@ -63,4 +92,5 @@ __END__
 %h1 Codebase 2 PivotalTracker
 %p 
   A tiny proxy application which will extract your tickets from Codebase and allow them to be viewed in PivotalTracker. Written by
-  %a(href="http://ideasasylum.com") Jamie Lawrence and hosted on Heroku. 
+  %a(href="http://ideasasylum.com") Jamie Lawrence
+  and hosted on Heroku. 
