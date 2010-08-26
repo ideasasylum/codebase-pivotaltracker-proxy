@@ -35,25 +35,25 @@ get '/tickets/:server/:project' do
 	    xslt = XML::XSLT.new()
 	    xslt.xml = tickets
 	    xslt.xsl = <<XML
-    <?xml version="1.0" encoding="ISO-8859-1"?>
-    <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-    <xsl:template match="/tickets">
-      <external_stories type="array">
-          <xsl:for-each select="ticket">
-          <external_story>
-            <external_id><xsl:value-of select="ticket-id"/></external_id>
-            <description><xsl:value-of select="summary"/></description>
-            <name><xsl:value-of select="summary"/></name>
-            <requested_by><xsl:value-of select="reporter"/></requested_by>
-            <story_type><xsl:value-of select="ticket-type"/></story_type>
-            <created_at type="datetime">2010/8/1 00:00:00 UTC</created_at>
-            <estimate type="integer">2</estimate>
-          </external_story>
-          </xsl:for-each>
-      </external_stories>
-    </xsl:template>
-    </xsl:stylesheet>
+<xsl:template match="/tickets">
+  <external_stories type="array">
+      <xsl:for-each select="ticket">
+      <external_story>
+        <external_id><xsl:value-of select="ticket-id"/></external_id>
+        <description><xsl:value-of select="summary"/></description>
+        <name><xsl:value-of select="summary"/></name>
+        <requested_by><xsl:value-of select="reporter"/></requested_by>
+        <story_type><xsl:value-of select="ticket-type"/></story_type>
+        <created_at type="datetime">2010/8/1 00:00:00 UTC</created_at>
+        <estimate type="integer">2</estimate>
+      </external_story>
+      </xsl:for-each>
+  </external_stories>
+</xsl:template>
+</xsl:stylesheet>
 XML
     
 	    output = xslt.serve()
