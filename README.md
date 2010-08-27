@@ -7,7 +7,7 @@ Usage:
 ======
 
 - Add a new integration to PivotalTracker: Open your project, `View->Settings`, `Integrations`. Scroll down to the bottom and choose `'Other'` from the `"Create New Integration..."` drop down menu.
-- **Name*: Codebase (or whatever you'd like to call this)
+- **Name**: Codebase (or whatever you'd like to call this)
 - **Basic Auth Username**:  < your codebase username >
 - **Basic Auth Password**: < your codebase _apikey_ >
 - **Base URL**: http://< your codebase subdomain >.codebasehq.com/< project name >/tickets/
