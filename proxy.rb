@@ -37,7 +37,6 @@ get '/tickets/:server/:project' do
 	    xslt.xsl = <<XML
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
 <xsl:template match="/tickets">
   <external_stories type="array">
       <xsl:for-each select="ticket">
@@ -46,7 +45,20 @@ get '/tickets/:server/:project' do
         <description><xsl:value-of select="summary"/></description>
         <name><xsl:value-of select="summary"/></name>
         <requested_by><xsl:value-of select="reporter"/></requested_by>
-        <story_type>feature</story_type>
+        <xsl:choose>
+            <xsl:when test="ticket-type = 'enhancement'">
+                <story_type>feature</story_type>
+            </xsl:when>
+            <xsl:when test="ticket-type = 'bug'">
+                <story_type>bug</story_type>
+            </xsl:when>
+            <xsl:when test="ticket-type = 'task'">
+                <story_type>chore</story_type>
+            </xsl:when>
+            <xsl:otherwise>
+                <story_type>feature</story_type>
+            </xsl:otherwise>
+        </xsl:choose>
         <created_at type="datetime">2010/8/1 00:00:00 UTC</created_at>
         <estimate type="integer">2</estimate>
       </external_story>
