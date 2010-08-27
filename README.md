@@ -6,14 +6,15 @@ A simple Sintra app which acts as a proxy between Pivotal Tracker and Codebase, 
 Usage:
 ======
 
-- Add a new integration to PivotalTracker: Open your project, View->Settings, Integrations. Scroll down to the bottom and choose 'Other' from the "Create New Integration..." drop down menu.
-  *Name*: Codebase (or whatever you'd like to call this)
-  *Basic Auth Username*: {your codebase username}
-  *Basic Auth Password*: {your codebase ***apikey***}
-  *Base URL*: http://{your codebase subdomain}.codebasehq.com/{project name}/tickets/
-  *Import API URL*: http://codebase2pivotaltracker.heroku.com/tickets/{your codebase subdomain}/{project name}
+1. Add a new integration to PivotalTracker: Open your project, `View->Settings`, `Integrations`. Scroll down to the bottom and choose `'Other'` from the `"Create New Integration..."` drop down menu.
 
-- Go back to your story. View->Codebase. This will open a new column with your codebase tickets which can be dragged into the other columns. Codebase stories will have an ID number which will link back to the full codebase ticket.
+  -  *Name*: Codebase (or whatever you'd like to call this)
+  -  *Basic Auth Username*:  < your codebase username >
+  -  *Basic Auth Password*: < your codebase _apikey_ >
+  -  *Base URL*: http://< your codebase subdomain >.codebasehq.com/< project name >/tickets/
+  -  *Import API URL*: http://codebase2pivotaltracker.heroku.com/tickets/< your codebase subdomain >/< project name >
+
+2. Go back to your story. `View->Codebase`. This will open a new column with your codebase tickets which can be dragged into the other columns. Codebase stories will have an ID number which will link back to the full codebase ticket.
 
 Limitations
 ===========
