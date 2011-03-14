@@ -23,11 +23,11 @@ get '/tickets/:server/:project' do
         server = params[:server]
         
         tickets = ""
-        http = Net::HTTP.new("#{server}.codebasehq.com", 443)
+        http = Net::HTTP.new("api3.codebasehq.com", 443)
         http.use_ssl = true
         http.start do |http|
           req = Net::HTTP::Get.new("/#{project}/tickets.xml")
-          req.basic_auth(username, apikey)
+          req.basic_auth("#{server}/#{username}", apikey)
           response = http.request(req)
           tickets = response.body
         end

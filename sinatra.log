@@ -1,0 +1,979 @@
+# Logfile created on 2010-08-25 01:21:28 +0100 by logger.rb/25413
+I, [2010-08-25T01:21:33.621997 #97020]  INFO -- :  
+I, [2010-08-25T01:47:39.499838 #97133]  INFO -- : http://shutterscouts.codebasehq.com/shutterscouts/tickets.xml
+I, [2010-08-25T01:47:39.499908 #97133]  INFO -- : #<Curl::Easy http://shutterscouts.codebasehq.com/shutterscouts/>
+I, [2010-08-25T01:49:12.804318 #97152]  INFO -- : https://shutterscouts.codebasehq.com/shutterscouts/tickets.xml
+I, [2010-08-25T01:49:12.804387 #97152]  INFO -- : #<Curl::Easy https://shutterscouts.codebasehq.com/shutterscouts>
+I, [2010-08-25T01:49:13.468010 #97152]  INFO -- :  
+I, [2010-08-25T01:50:53.162066 #97159]  INFO -- : https://shutterscouts.codebasehq.com/shutterscouts/tickets.xml
+I, [2010-08-25T01:50:53.162133 #97159]  INFO -- : #<Curl::Easy https://shutterscouts.codebasehq.com/shutterscouts>
+I, [2010-08-25T01:50:54.183824 #97159]  INFO -- :  
+I, [2010-08-25T01:55:48.545122 #97196]  INFO -- :  
+I, [2010-08-25T02:12:06.775764 #97262]  INFO -- : <?xml version="1.0" encoding="UTF-8"?>
+<tickets type="array">
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">24259</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18355</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Remove KISSmetrics from site</summary>
+    <ticket-type>bug</ticket-type>
+    <ticket-id type="integer">59</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Normal</priority>
+    <category>Performance</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">22780</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Ensure daily updates are sent out at 1am user time</summary>
+    <ticket-type>bug</ticket-type>
+    <ticket-id type="integer">35</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category>Evaluation</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer" nil="true"></category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18354</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Geotagged photo import</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">54</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>High</priority>
+    <category nil="true"></category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">22781</category-id>
+    <milestone-id type="integer">5190</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary> Include 7-day forecasts</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">22</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category>Weather Data</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">24259</category-id>
+    <milestone-id type="integer">4446</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Fragment caching for ideas/forecasts/evaluations using Memcache</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">32</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category>Performance</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Date-based conditions for Ideas</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">51</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category>Cosmetic</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Add notes to photos when attaching and allow editing</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">12</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category>Cosmetic</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer" nil="true"></category-id>
+    <milestone-id type="integer">5190</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>GPS file import</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">53</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category nil="true"></category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer">5190</milestone-id>
+    <priority-id type="integer">18354</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Implement Astro data</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">50</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>High</priority>
+    <category>Cosmetic</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">24260</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Enable Google Analytics on webapp pages</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">44</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category>Support/Admin</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">22780</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Add user timezone support</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">36</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category>Evaluation</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Add Static Map to Idea.show</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">43</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category>Cosmetic</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <priority-id type="integer">18354</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Time column shows green even if months are wrong</summary>
+    <ticket-type>bug</ticket-type>
+    <ticket-id type="integer">39</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>High</priority>
+    <category>Cosmetic</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer">4446</milestone-id>
+    <priority-id type="integer">18354</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Require home location only when sorting by distance </summary>
+    <ticket-type>bug</ticket-type>
+    <ticket-id type="integer">58</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>High</priority>
+    <category>Cosmetic</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">22780</category-id>
+    <milestone-id type="integer">4446</milestone-id>
+    <priority-id type="integer">18355</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>set_astro_data should select the data for the correct data</summary>
+    <ticket-type>bug</ticket-type>
+    <ticket-id type="integer">57</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Normal</priority>
+    <category>Evaluation</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">22781</category-id>
+    <milestone-id type="integer">5190</milestone-id>
+    <priority-id type="integer">18355</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Move to hourly forecasts</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">56</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Normal</priority>
+    <category>Weather Data</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">27989</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18355</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Idea tag</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">46</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Normal</priority>
+    <category>Ideas</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">27989</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18355</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Filter ideas &amp; evaluations by tags</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">47</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Normal</priority>
+    <category>Ideas</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">22781</category-id>
+    <milestone-id type="integer">5190</milestone-id>
+    <priority-id type="integer">18355</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Full international weather data</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">52</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Normal</priority>
+    <category>Weather Data</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">22782</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18355</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Store tidal data</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">55</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Normal</priority>
+    <category>Tidal Data</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer">4446</milestone-id>
+    <priority-id type="integer">18355</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Replace Google Maps with Bing maps</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">49</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Normal</priority>
+    <category>Cosmetic</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18355</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Tag auto-completion</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">48</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Normal</priority>
+    <category>Cosmetic</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">24260</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18354</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Add Feedback form to each page</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">42</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>High</priority>
+    <category>Support/Admin</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19599</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Merge change password form into settings page</summary>
+    <ticket-type>task</ticket-type>
+    <ticket-id type="integer">16</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category>Refactoring</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Style error messages on sign up page</summary>
+    <ticket-type>bug</ticket-type>
+    <ticket-id type="integer">15</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category>Cosmetic</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18355</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Add current conditions to Idea.show</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">38</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Normal</priority>
+    <category>Cosmetic</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19599</category-id>
+    <milestone-id type="integer">4446</milestone-id>
+    <priority-id type="integer">18353</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Spreedly integration</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">33</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Critical</priority>
+    <category>Refactoring</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18354</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Later evaluations: filter &amp; group</summary>
+    <ticket-type>task</ticket-type>
+    <ticket-id type="integer">23</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>High</priority>
+    <category>Cosmetic</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">22780</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Ensure that only one current condition exists per idea</summary>
+    <ticket-type>bug</ticket-type>
+    <ticket-id type="integer">21</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category>Evaluation</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18355</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Sort by distance</summary>
+    <ticket-type>task</ticket-type>
+    <ticket-id type="integer">1</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Normal</priority>
+    <category>Cosmetic</category>
+  </ticket>
+</tickets>
+
+I, [2010-08-25T02:12:53.325924 #97270]  INFO -- : <?xml version="1.0" encoding="UTF-8"?>
+<tickets type="array">
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">24259</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18355</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Remove KISSmetrics from site</summary>
+    <ticket-type>bug</ticket-type>
+    <ticket-id type="integer">59</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Normal</priority>
+    <category>Performance</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">22780</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Ensure daily updates are sent out at 1am user time</summary>
+    <ticket-type>bug</ticket-type>
+    <ticket-id type="integer">35</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category>Evaluation</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer" nil="true"></category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18354</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Geotagged photo import</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">54</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>High</priority>
+    <category nil="true"></category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">22781</category-id>
+    <milestone-id type="integer">5190</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary> Include 7-day forecasts</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">22</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category>Weather Data</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">24259</category-id>
+    <milestone-id type="integer">4446</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Fragment caching for ideas/forecasts/evaluations using Memcache</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">32</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category>Performance</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Date-based conditions for Ideas</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">51</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category>Cosmetic</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Add notes to photos when attaching and allow editing</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">12</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category>Cosmetic</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer" nil="true"></category-id>
+    <milestone-id type="integer">5190</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>GPS file import</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">53</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category nil="true"></category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer">5190</milestone-id>
+    <priority-id type="integer">18354</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Implement Astro data</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">50</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>High</priority>
+    <category>Cosmetic</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">24260</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Enable Google Analytics on webapp pages</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">44</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category>Support/Admin</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">22780</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Add user timezone support</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">36</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category>Evaluation</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Add Static Map to Idea.show</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">43</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category>Cosmetic</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer" nil="true"></milestone-id>
+    <priority-id type="integer">18354</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Time column shows green even if months are wrong</summary>
+    <ticket-type>bug</ticket-type>
+    <ticket-id type="integer">39</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>High</priority>
+    <category>Cosmetic</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer">4446</milestone-id>
+    <priority-id type="integer">18354</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Require home location only when sorting by distance </summary>
+    <ticket-type>bug</ticket-type>
+    <ticket-id type="integer">58</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>High</priority>
+    <category>Cosmetic</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">22780</category-id>
+    <milestone-id type="integer">4446</milestone-id>
+    <priority-id type="integer">18355</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>set_astro_data should select the data for the correct data</summary>
+    <ticket-type>bug</ticket-type>
+    <ticket-id type="integer">57</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Normal</priority>
+    <category>Evaluation</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">22781</category-id>
+    <milestone-id type="integer">5190</milestone-id>
+    <priority-id type="integer">18355</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Move to hourly forecasts</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">56</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Normal</priority>
+    <category>Weather Data</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">27989</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18355</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Idea tag</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">46</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Normal</priority>
+    <category>Ideas</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">27989</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18355</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Filter ideas &amp; evaluations by tags</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">47</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Normal</priority>
+    <category>Ideas</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">22781</category-id>
+    <milestone-id type="integer">5190</milestone-id>
+    <priority-id type="integer">18355</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Full international weather data</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">52</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Normal</priority>
+    <category>Weather Data</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">22782</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18355</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Store tidal data</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">55</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Normal</priority>
+    <category>Tidal Data</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer">4446</milestone-id>
+    <priority-id type="integer">18355</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Replace Google Maps with Bing maps</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">49</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Normal</priority>
+    <category>Cosmetic</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18355</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Tag auto-completion</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">48</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Normal</priority>
+    <category>Cosmetic</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">24260</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18354</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Add Feedback form to each page</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">42</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>High</priority>
+    <category>Support/Admin</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19599</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Merge change password form into settings page</summary>
+    <ticket-type>task</ticket-type>
+    <ticket-id type="integer">16</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category>Refactoring</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Style error messages on sign up page</summary>
+    <ticket-type>bug</ticket-type>
+    <ticket-id type="integer">15</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category>Cosmetic</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18355</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Add current conditions to Idea.show</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">38</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Normal</priority>
+    <category>Cosmetic</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19599</category-id>
+    <milestone-id type="integer">4446</milestone-id>
+    <priority-id type="integer">18353</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Spreedly integration</summary>
+    <ticket-type>enhancement</ticket-type>
+    <ticket-id type="integer">33</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Critical</priority>
+    <category>Refactoring</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18354</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Later evaluations: filter &amp; group</summary>
+    <ticket-type>task</ticket-type>
+    <ticket-id type="integer">23</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>High</priority>
+    <category>Cosmetic</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">22780</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18356</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Ensure that only one current condition exists per idea</summary>
+    <ticket-type>bug</ticket-type>
+    <ticket-id type="integer">21</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Low</priority>
+    <category>Evaluation</category>
+  </ticket>
+  <ticket>
+    <assignee-id type="integer">5469</assignee-id>
+    <category-id type="integer">19597</category-id>
+    <milestone-id type="integer">4320</milestone-id>
+    <priority-id type="integer">18355</priority-id>
+    <reporter-id type="integer">5469</reporter-id>
+    <status-id type="integer">25742</status-id>
+    <summary>Sort by distance</summary>
+    <ticket-type>task</ticket-type>
+    <ticket-id type="integer">1</ticket-id>
+    <assignee>hopeless</assignee>
+    <reporter>hopeless</reporter>
+    <status>New</status>
+    <priority>Normal</priority>
+    <category>Cosmetic</category>
+  </ticket>
+</tickets>
+
